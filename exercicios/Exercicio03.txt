@@ -1,0 +1,11 @@
+a. Working Tree (ou Working Directory ou Working Area):
+O Working Tree é o diretório de trabalho onde você trabalha nos arquivos do seu projeto. É onde os arquivos são modificados, criados e excluídos. É a área onde você realiza as alterações nos arquivos do seu projeto antes de prepará-los para serem versionados pelo Git.
+
+b. Stage Area (ou Index):
+A Stage Area é a área intermediária entre o Working Tree e o repositório local. É aqui que você prepara as modificações feitas nos arquivos do projeto antes de criar um commit. Os arquivos no Stage Area estão prontos para serem incluídos no próximo commit. Você usa o comando git add para adicionar alterações do Working Tree para o Stage Area.
+
+c. Local Repository:
+O Local Repository é onde o Git armazena toda a história do seu projeto. Consiste em um banco de dados que contém todos os commits, ramificações, tags e histórico de alterações do seu projeto. É a cópia do repositório que está localmente em sua máquina.
+
+d. Remote Repository:
+O Remote Repository é uma versão do repositório Git que está em um servidor remoto (como GitHub, GitLab, Bitbucket, entre outros). Ele pode ser acessado por várias pessoas, permitindo colaboração em projetos. É aqui que você pode enviar (push) e receber (pull) alterações, colaborar com outros membros da equipe e manter uma cópia centralizada do seu projeto, acessível de diferentes locais.
