@@ -1,0 +1,31 @@
+a. git init: Inicializa um repositório Git em um diretório, permitindo o controle de versão dos arquivos dentro desse diretório.
+
+b. git config --global user.name "turing": Define o nome de usuário para commits no repositório Git. No exemplo, "turing" seria o nome do usuário.
+
+c. git add EXERCICIO.txt: Adiciona o arquivo EXERCICIO.txt para ser incluído no próximo commit. Este comando prepara o arquivo para ser rastreado pelo Git.
+
+d. git add -A: Adiciona todas as modificações e arquivos novos ou excluídos para serem incluídos no próximo commit. O -A indica todos os arquivos.
+
+e. git commit -m "Adicionado nova interface": Cria um novo commit com uma mensagem associada descrevendo as mudanças feitas. Neste caso, a mensagem do commit é "Adicionado nova interface".
+
+f. git commit: Abre um editor de texto para escrever uma mensagem de commit. É necessário fornecer uma mensagem para finalizar o commit.
+
+g. git reset --hard HEAD: Reseta o estado do diretório de trabalho e do índice para o último commit (HEAD). Isso descarta todas as mudanças locais e reverte para o estado do último commit.
+
+h. cd Downloads: Navega para o diretório "Downloads".
+
+i. pwd: Mostra o diretório atual (print working directory).
+
+j. cd ..: Navega para o diretório pai do diretório atual.
+
+k. ls: Lista os arquivos e pastas no diretório atual.
+
+l. git pull: Puxa as alterações do repositório remoto para o repositório local. Combina as alterações na branch atual.
+
+m. git push: Envia commits locais para um repositório remoto.
+
+n. git clone <<url>>: Clona um repositório Git existente de uma URL para um novo diretório local.
+
+o. git diff: Mostra as diferenças entre as mudanças que ainda não foram adicionadas ao índice.
+
+p. git show: Mostra informações sobre um commit específico, incluindo as alterações feitas e os metadados associados a esse commit.
